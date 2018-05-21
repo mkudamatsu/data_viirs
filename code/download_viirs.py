@@ -16,7 +16,7 @@ if not os.path.isdir("../docs/"): # Create the output directory if it doesn't ex
 ### Define the main function ###
 def main():
     try:
-        print "Download the tar file" # We keep the compressed original file as it takes ages to download.
+        print "Download the tar file"
         url = "https://data.ngdc.noaa.gov/instruments/remote-sensing/passive/spectrometers-radiometers/imaging/viirs/dnb_composites/v10//2015/SVDNB_npp_20150101-20151231_75N060W_v10_c201701311200.tgz"
         downloaded_tar = "../orig/SVDNB_npp_20150101-20151231_75N060W_v10_c201701311200.tgz"
         download_data(url, downloaded_tar)
